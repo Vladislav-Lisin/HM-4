@@ -51,7 +51,7 @@ public class Main {
         if (age < 5) {
             System.out.println("Если возраст человека " + age + ", то ему нельзя кататься на аттракционе");
         }
-        if (age > 5 && age < 14) {
+        if (age >= 5 && age < 14) {
             System.out.println("Если возраст человека " + age + ", то ему можно кататься на аттракционе в сопровождении");
         }
         if (age > 14) {
@@ -74,13 +74,13 @@ public class Main {
 
 
         //task 7
-        int one = 1;
-        int two = 2;
+        int one = 2;
+        int two = 1;
         int three = 3;
         if (one > two &&  one > three) {
             System.out.println(one);
         }
-        if (two > one &&  two > three) {
+        else if (two > one &&  two > three) {
             System.out.println(two);
         }
         else {
